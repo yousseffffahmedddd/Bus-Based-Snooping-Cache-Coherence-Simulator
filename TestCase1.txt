@@ -1,0 +1,9 @@
+MEMORY: X=5
+PROCESSORS: P, Q
+P: Read(X)
+Q: Read(X)
+Q: Write(X, 10)
+Q: Read(X)
+Q: Write(X, 15)
+P: Write(X, 20)
+Q: Read(X)

@@ -1,0 +1,10 @@
+MEMORY: X=10, Z=80
+PROCESSORS: P, Q, R
+P: Read(X)
+Q: Read(X)
+R: Read(X)
+P: Write(X, 35)
+P: Read(Z)
+Q: Read(X)
+R: Write(X, 15)
+P: Write(Z, 81)
